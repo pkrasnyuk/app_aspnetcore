@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  webappcore.api:
+    image: webappcore.api
+    build:
+      context: ./WebAppCore.Api
+      dockerfile: Dockerfile
+
+  webappcore.app:
+    image: webappcore.app
+    build:
+      context: ./WebAppCore.App
+      dockerfile: Dockerfile

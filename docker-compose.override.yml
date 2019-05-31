@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  webappcore.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "32768:80"
+
+  webappcore.app:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "32769:80"

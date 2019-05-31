@@ -1,0 +1,8 @@
+{
+  "api": {
+    "url": "http://localhost:15537/api"
+  },
+  "signalR": {
+    "notificationsPublisherUrl": "http://localhost:15537/notificationsPublisher"
+  }
+}
